@@ -6,6 +6,11 @@ details:
 
 http://github.com/min-protocol/min/wiki
 
+This code was made for the ATMEGA2560. Build it in Linux with packages avr-gcc and avr-libc
+ <br />
+<code>avr-gcc -g -Os -mmcu=atmega2560 *.c min/layer1.c</code>
+
+
 File structure:
 
 	firmware/				Embedded C code
